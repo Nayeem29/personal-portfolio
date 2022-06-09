@@ -26,7 +26,7 @@ const Profile = () => {
           <div className='profile-details-name'>
             <span className='primary-text'>
               {" "}
-              Hello, I'M <span className='highlighted-text'>Nayeem</span>
+              Hello, I'M <span className='highlighted-text'>Nayeem Hasan</span>
             </span>
           </div>
           <div className='profile-details-role'>
@@ -37,7 +37,7 @@ const Profile = () => {
                   loop={Infinity}
                   steps={
                     [
-                      "Enthusiactic Dev",
+                      "Enthusiastic Dev",
                       5000,
                       "MERN Stack Developer",
                       5000,
