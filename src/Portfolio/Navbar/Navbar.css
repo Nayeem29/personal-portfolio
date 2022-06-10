@@ -7,21 +7,8 @@ header {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  /* margin-top: 10%; */
 }
 
-/* .logo {
-  display: flex;
-  align-items: flex-start;
-  cursor: pointer;
-}
-
-.logo p {
-  size: 12px;
-  font-weight: 800;
-  margin-left: 5px;
-  margin-bottom: 0%;
-} */
 
 header .container {
   padding-top: 15px;
@@ -106,7 +93,7 @@ header ul li a:hover {
     position: absolute;
     top: 35px;
     right: 20px;
-    color: var(--primary);
+    color: var(--dark-orange);
     display: block;
     font-size: 25px;
     z-index: 999;
@@ -120,7 +107,3 @@ header ul li a:hover {
     height: 10vh;
   }
 }
-
-/* .demo {
-  height: 200vh;
-} */

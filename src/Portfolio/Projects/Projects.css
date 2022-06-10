@@ -1,5 +1,6 @@
 .portfolio {
   position: relative;
+  margin-left: 4rem;
 }
 
 .portfolio .box {
@@ -45,6 +46,9 @@
 }
 
 @media (max-width: 768px) {
+  .portfolio {
+    margin-left: 0;
+  }
 
   .modal,
   .overlay {
