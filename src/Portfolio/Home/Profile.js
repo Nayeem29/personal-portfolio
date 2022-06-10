@@ -12,14 +12,11 @@ const Profile = () => {
               <a href="https://www.facebook.com/nayeemkop29/">
                 <i className='fa fa-facebook-square'></i>
               </a>
-              <a href="#">
-                <i className='fa fa-google-plus-square'></i>
+              <a href="https://github.com/Nayeem29">
+                <i className='fa fa-github-square'></i>
               </a>
               <a href="https://www.linkedin.com/in/nayeem-hasan-khan-4a0618100/">
                 <i className='fa fa-linkedin-square'></i>
-              </a>
-              <a href="#">
-                <i className='fa fa-twitter'></i>
               </a>
             </div>
           </div>

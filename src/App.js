@@ -7,6 +7,7 @@ import Contact from "./Portfolio/Contact/Contact";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Skillbar from "./Portfolio/Skillbar/Skillbar";
+import ScrollTop from "./Portfolio/ScrollTop";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+      <ScrollTop />
       <ToastContainer />
     </div>
   );
