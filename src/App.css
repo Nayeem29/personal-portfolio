@@ -82,7 +82,7 @@ button {
 }
 
 .btn_shadow:hover {
-  background: #ff014f;
+  background: var(--orange);
   color: white;
   transform: translateY(-10px);
 }
@@ -112,7 +112,7 @@ button {
 }
 
 .heading h4 {
-  color: #ff014f;
+  color: #F57F17;
   letter-spacing: 2px;
   font-weight: 400;
 }
@@ -128,7 +128,7 @@ h1 {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 35px;
 }
 
