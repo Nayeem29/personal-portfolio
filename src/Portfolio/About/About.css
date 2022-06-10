@@ -1,0 +1,10 @@
+.about-me {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 4rem;
+}
+
+.about-me h2,
+h4 {
+  color: var(--orange);
+}

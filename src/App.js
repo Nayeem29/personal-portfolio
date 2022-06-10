@@ -8,12 +8,14 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Skillbar from "./Portfolio/Skillbar/Skillbar";
 import ScrollTop from "./Portfolio/ScrollTop";
+import About from "./Portfolio/About/About";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Profile />
+      <About />
       <Skillbar />
       <Projects />
       <Contact />
