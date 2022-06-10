@@ -19,8 +19,8 @@ const Navbar = () => {
           <div className='navlink'>
 
             <ul className={Mobile ? "nav-links-mobile" : "link"} onClick={() => setMobile(false)}>
-              <li> <a href="#portfolio">Portfolio</a></li>
-              <li> <a href="#experience">Experience</a></li>
+              <li> <a href="#project">Portfolio</a></li>
+              <li> <a href="#skill">Skill</a></li>
               <li> <a href="#projects">Projects</a></li>
               <li> <a href="#education">Education</a></li>
               <li> <a href="#contact">Contact</a></li>

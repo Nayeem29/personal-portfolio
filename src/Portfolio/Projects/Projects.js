@@ -10,7 +10,7 @@ const Projects = () => {
       .then(data => setProjectName(data))
   }, []);
   return (
-    <div>
+    <div id='#project'>
       <section className='portfolio top' id='portfolio'>
         <div className="container">
           <div className="heading text-center">
