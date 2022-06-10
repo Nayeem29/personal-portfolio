@@ -45,6 +45,10 @@
   margin-right: 0.725rem;
 }
 
+.features-tech p {
+  font-size: 12px;
+}
+
 @media (max-width: 768px) {
   .portfolio {
     margin-left: 0;

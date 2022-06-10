@@ -6,8 +6,12 @@
     "liveLink": "https://cam-bd-house.web.app/",
     "clientLink": "https://github.com/Nayeem29/cam-bd-house",
     "serverLink": "https://github.com/Nayeem29/cam-bd-house-server",
-    "description": "",
-    "technology": ""
+    "description": [
+      "An admin can add and remove products, make payment status paid, pending or shipped",
+      "A user can post his/her review on perticular product and pay through cards for any product",
+      "firebase is used for login purposes and stripe for payment"
+    ],
+    "technology": "REACT, NODE, EXPRESS, MONGO, FIREBASE, TAILWIND, STRIPE, JWT"
   },
   {
     "id": 2,
@@ -16,8 +20,11 @@
     "liveLink": "https://perfumers-warehouse.web.app",
     "clientLink": "https://github.com/Nayeem29/Perfumes-Warehouse",
     "serverLink": "https://github.com/Nayeem29/Perfumers-Warehouse-Server",
-    "description": "",
-    "technology": ""
+    "description": [
+      "Logged in User will get the access of manage, add and delete products",
+      "Users will be verified who will register using email and password"
+    ],
+    "technology": "REACT, NODE, EXPRESS, MONGO, FIREBASE, TAILWIND"
   },
   {
     "id": 3,
@@ -26,7 +33,10 @@
     "liveLink": "https://walk-visa-consultancy.web.app",
     "clientLink": "https://github.com/Nayeem29/Walk-Visa-Consultant",
     "serverLink": "",
-    "description": "",
-    "technology": ""
+    "description": [
+      "Login and Registration system with email, password and Google",
+      "Email verification and password reset functionality"
+    ],
+    "technology": "REACT, REACT-ROUTER, FIREBASE, TAILWIND"
   }
 ]

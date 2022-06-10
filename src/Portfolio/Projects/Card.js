@@ -4,7 +4,7 @@ import '../Projects/Projects.css';
 
 const Card = ({ project }) => {
   const { title, img, liveLink, clientLink, serverLink, description, technology } = project;
-
+  console.log(description);
   return (
     <>
       <div className="box btn-shadow">
@@ -13,6 +13,20 @@ const Card = ({ project }) => {
         </div>
         <div className="title">
           <h2>{title}</h2>
+        </div>
+        <div className="features-tech">
+          <h2>Features: <br />
+            <p>
+              {description?.map(d => <ul>
+                <li>- {d}</li>
+              </ul>)}
+            </p>
+          </h2>
+        </div>
+        <div className="features-tech">
+          <h2>Tech: <p>
+            {technology}
+          </p> </h2>
         </div>
         <div className='project-links'>
           <a href={liveLink} target='_blank' rel='noreferrer'>
